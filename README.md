@@ -14,12 +14,12 @@ python main.py train
 ```
 python main.py test
 ```
-You can set more details in the ```option.py```.
+You can set more details in the ```option.py```.Then the model will inpaint the images in the `./demo/input/` with corresponding masks in the `./demo/mask/` and save the results in the `./demo/output/` directory.
+The pre-trained weights should be put in the `./weights/` directory.
 # Download Datasets
 We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/switchablenorms/CelebAMask-HQ), and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. [Liu et al.](https://arxiv.org/abs/1804.07723) provides 12k [irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) as the testing mask. 
 # Citation
-If you find this useful for your research, please use the following.Then the model will inpaint the images in the `./demo/input/` with corresponding masks in the `./demo/mask/` and save the results in the `./demo/output/` directory.
-The pre-trained weights should be put in the `./weights/` directory.
+If you find this useful for your research, please use the following.
 
 ```
 @article{10.1145/3715962,

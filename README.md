@@ -10,3 +10,8 @@ We use python to build our code, you need to install those package to run
 ```
 python main.py train
 ```
+2. test the model
+```
+python main.py test
+```
+You can set more details in the ```option.py```
